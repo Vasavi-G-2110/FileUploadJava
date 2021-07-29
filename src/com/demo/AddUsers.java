@@ -18,7 +18,7 @@ import com.utils.DBConnect;
 public class AddUsers extends HttpServlet {
 	@Override
     public void doPost(HttpServletRequest request, HttpServletResponse response)  
-            throws ServletException, IOException {  
+            throws ServletException, IOException {   
 
 		Connection conn;
 		try {

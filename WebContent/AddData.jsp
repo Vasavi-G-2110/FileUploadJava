@@ -35,7 +35,7 @@ Class.forName("com.mysql.cj.jdbc.Driver");
 		while (resultset.next()) {
 		%>
 		<li><%=resultset.getString(2)%></li>
-		<%
+		 <%
 		}
 		%>
 	<br />

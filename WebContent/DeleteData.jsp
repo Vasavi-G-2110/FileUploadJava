@@ -20,7 +20,7 @@ Class.forName("com.mysql.cj.jdbc.Driver");
 	ResultSet idrs=stmt.executeQuery(sql);
 	idrs.next();
 	int deltbId=idrs.getInt(1);
-	
+	 
 	//update
 	int totcount=0;
 	Statement stmt1=conn.createStatement();

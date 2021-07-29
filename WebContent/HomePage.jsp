@@ -25,6 +25,6 @@ body {
 	</div>
 	<p>No details available</p>
 	<a href="AddData.jsp">Add Data</a><br />
-	
+	 
 </body>
 </html>

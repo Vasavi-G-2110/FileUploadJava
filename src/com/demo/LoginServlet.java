@@ -47,7 +47,7 @@ public class LoginServlet extends HttpServlet {
 				if(resultSet.getString("username").equals(uname)) {
 					if(resultSet.getString("password").equals(pass)) {
 						uid=resultSet.getInt("userid");
-						role=resultSet.getString("role");
+					 	role=resultSet.getString("role");
 						f=1;
 						break;
 					}

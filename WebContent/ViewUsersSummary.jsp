@@ -29,7 +29,7 @@ Class.forName("com.mysql.cj.jdbc.Driver");
 	<H1>Users Summary</H1>
 	<%
 	
-	Connection conn = DBConnect.getConnection();
+	Connection conn = DBConnect.getConnection(); 
 	Statement statement = conn.createStatement();
 	ResultSet resultset = statement.executeQuery("select * from Users");
 	%>

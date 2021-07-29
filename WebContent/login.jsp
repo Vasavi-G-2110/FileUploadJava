@@ -16,7 +16,6 @@ body {
 
 	<div id="top">
 		<li style="float: center"><a href="#">Data Analytics</a></li>
-		
 	</div>
 	<div id="content">
 	<form action="LoginServlet" method="post">
